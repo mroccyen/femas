@@ -4,11 +4,16 @@ spring:
   cloud:
     nacos:
       config:
+        server-addr: http://192.168.110.207:8848
         refresh-enabled: false
+      discovery:
+        server-addr: http://192.168.110.207:8848
+      username: nacos
+      password: BgDevNacos!123
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/adminDb?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
+    url: jdbc:mysql://rm-8vbch9199979x7qiizo.mysql.zhangbei.rds.aliyuncs.com:3306/adminDb?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: remote
+    password: 123qweASD!@#
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
 
