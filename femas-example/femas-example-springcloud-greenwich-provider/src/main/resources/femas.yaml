@@ -4,7 +4,7 @@
 paas_server_address: http://127.0.0.1:8080
 
 femas_namespace_id: ns-8ga2qayb
-femas_prog_version: 2
+femas_prog_version: 1
 
 #治理插件配置（插件类型，插件规则，不配置则加载Femas默认插件）
 rateLimit:
