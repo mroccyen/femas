@@ -84,7 +84,7 @@ public class ConsumerController {
         if (!StringUtils.isEmpty(tagName)) {
             FemasContext.putTag(tagName, tagValue);
         }
-        LOG.info("consumer say hello v2");
+        LOG.info("consumer say hello v1");
         String hello = providerService.hello();
         LOG.info(hello);
         return hello;

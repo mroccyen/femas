@@ -40,7 +40,7 @@ public class ProviderController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
-        String echoHello = "provider say hello v2";
+        String echoHello = "provider say hello v3";
         LOG.info(echoHello);
         return echoHello;
     }
