@@ -87,7 +87,7 @@ public class ConsumerController {
         LOG.info("consumer say hello v3");
         String hello = providerService.hello();
         LOG.info(hello);
-        return hello;
+        return "consumer say hello v3 >> " + hello;
     }
 
     @GetMapping("/feignSchedule")
